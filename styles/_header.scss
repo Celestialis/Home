@@ -38,10 +38,14 @@
         }
         button {
             height: inherit;
+            outline: none;
             padding: 0 8px;
             border: 0;
             background: none;
             border-left: 1px solid #e6e6e6;
+            &:hover {
+                color: gray;
+            }
         }
     }
     .searchBrowse {
@@ -59,8 +63,12 @@
     }
     .accountBtn {
         padding: 15px;
+        outline: none;
         background-color: #f16d7f;
         color: white;
         border: none;
+        &:hover {
+            color: #222;
+        }
     }
 }

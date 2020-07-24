@@ -126,6 +126,10 @@ body {
                     justify-content: center;
                     align-items: center;
                     cursor: pointer;
+                    outline: none;
+                    &:hover {
+                        color: #222;
+                    }
                     img {
                         margin-right: 10px;
                     }
@@ -337,6 +341,9 @@ body {
                     padding: 0 20px;
                     outline: none;
                     cursor: pointer;
+                    &:hover {
+                        color: #222;
+                    }
                 }
             }
         }
@@ -450,12 +457,16 @@ body {
     button {
         margin-top: 44px;
         padding: 18px 38px;
+        outline: none;
         background-color: #ffffff;
         border: 1px solid #eaeaea;
         color: #4a4a4a;
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
+        &:hover {
+            color: gray;
+        }
     }
 }
 
@@ -501,12 +512,16 @@ body {
     button {
         width: 118px;
         height: 35px;
+        outline: none;
         border: 1px solid #eaeaea;
         background-color: #ffffff;
         color: #4a4a4a;
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
+        &:hover {
+            color: #222;
+        }
     }
     .productShop__adress {
         width: 355px;
@@ -573,11 +588,15 @@ body {
         button {
             width: 273px;
             height: 50px;
+            outline: none;
             background-color: #f16d7f;
             color: #ffffff;
             font-size: 16px;
             font-weight: 700;
             text-transform: uppercase;
+            &:hover {
+                color: #222;
+            }
         }
     }
 }
@@ -699,7 +718,7 @@ body {
                                 padding-left: 37px;
                                 border: 1px solid #eaeaea;
                                 outline: none;
-                                color: #bcbcbc;
+                                color: #b1b1b1;
                             }
                         }
                         .choseSize {
@@ -709,7 +728,7 @@ body {
                                 padding-left: 15px;
                                 border: 1px solid #eaeaea;
                                 outline: none;
-                                color: #bcbcbc;
+                                color: #b1b1b1;
                             }
                         }
                         .choseQuantity {
@@ -719,10 +738,10 @@ body {
                                 padding-left: 17px;
                                 border: 1px solid #eaeaea;
                                 outline: none;
-                                color: #bcbcbc;
+                                color: #b1b1b1;
                             }
                             input::placeholder {
-                                color: #bcbcbc;
+                                color: #b1b1b1;
                             }
                         }
                     }
@@ -738,6 +757,10 @@ body {
                         color: #ef5b70;
                         font-size: 16px;
                         font-weight: 700;
+                        outline: none;
+                        &:hover {
+                            color: #222;
+                        }
                         img {
                             margin-right: 15px;
                         }

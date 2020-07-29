@@ -152,7 +152,8 @@ footer {
         text-align: center; }
       .copyrights .copyrightsWrap .copyrightsRight i:hover {
         color: white;
-        background: #f16d7f; }
+        background: #f16d7f;
+        transform: scale(1.2); }
 
 .arrivalsNew {
   width: 100%;
@@ -286,7 +287,8 @@ body {
           justify-content: center;
           align-items: center;
           cursor: pointer;
-          outline: none; }
+          outline: none;
+          transition-duration: .3s; }
           .featuredItemsWrap .featuredItems .featuredImgWrap .featuredBuy button:hover {
             color: #222; }
           .featuredItemsWrap .featuredItems .featuredImgWrap .featuredBuy button img {
@@ -393,6 +395,9 @@ body {
         justify-content: space-between; }
         .subscribeWrap .subscribe .reviews .reviewUnit .reviewUnitLeft {
           width: 83px; }
+          .subscribeWrap .subscribe .reviews .reviewUnit .reviewUnitLeft:hover {
+            transition-duration: 1s;
+            transform: rotate(360deg); }
         .subscribeWrap .subscribe .reviews .reviewUnit .reviewUnitRight {
           width: 386px; }
           .subscribeWrap .subscribe .reviews .reviewUnit .reviewUnitRight blockquote {
@@ -459,7 +464,8 @@ body {
           height: inherit;
           padding: 0 20px;
           outline: none;
-          cursor: pointer; }
+          cursor: pointer;
+          transition-duration: .3s; }
           .subscribeWrap .subscribe .subscribeRight .subscribeForm button:hover {
             color: #222; }
 
@@ -561,7 +567,8 @@ body {
     color: #4a4a4a;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition-duration: .3s; }
     .clearContinue button:hover {
       color: gray; }
 
@@ -608,7 +615,8 @@ body {
     color: #4a4a4a;
     font-size: 11px;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition-duration: .3s; }
     .productShop__end button:hover {
       color: #222; }
   .productShop__end .productShop__adress {
@@ -672,7 +680,8 @@ body {
       color: #ffffff;
       font-size: 16px;
       font-weight: 700;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      transition-duration: .3s; }
       .productShop__end .productShop__total button:hover {
         color: #222; }
 
@@ -807,7 +816,8 @@ body {
             color: #ef5b70;
             font-size: 16px;
             font-weight: 700;
-            outline: none; }
+            outline: none;
+            transition-duration: .3s; }
             .singleCollection .singleCollection__women .container .singleCollection__add .singleCollection__form button:hover {
               color: #222; }
             .singleCollection .singleCollection__women .container .singleCollection__add .singleCollection__form button img {
@@ -842,5 +852,118 @@ body {
           font-size: 16px;
           font-weight: 700;
           text-transform: uppercase; }
+
+.checkInfo {
+  margin-top: 89px;
+  height: 900px; }
+  .checkInfo .checkInfo__Adress {
+    display: flex;
+    flex-direction: column; }
+    .checkInfo .checkInfo__Adress p {
+      color: #222222;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .checkInfo .checkInfo__Adress .checkInfo__form {
+      height: 460px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck {
+        margin-left: 32px;
+        width: 270px;
+        height: 342px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck p {
+          color: #222222;
+          font-size: 13px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck span {
+          color: #b3b2b2;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck input {
+          color: #222222;
+          font-size: 12px;
+          font-weight: 400;
+          text-transform: uppercase; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck button {
+          width: 180px;
+          height: 50px;
+          border: 1px solid #eaeaea;
+          background-color: #ffffff;
+          color: #4a4a4a;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          outline: none;
+          transition-duration: .3s; }
+          .checkInfo .checkInfo__Adress .checkInfo__form .shippingCheck button:hover {
+            color: gray; }
+      .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister {
+        margin-right: 32px;
+        width: 391px;
+        height: 342px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister p {
+          color: #222222;
+          font-size: 13px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister span {
+          color: #b3b2b2;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister b {
+          color: #222222;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 20px;
+          text-transform: uppercase; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister i {
+          color: #ff0d0d;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 20px; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister input {
+          width: 390px;
+          height: 45px;
+          border: 1px solid #eaeaea;
+          background-color: #ffffff;
+          line-height: 45px; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister t {
+          color: #ff0d0d;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister button {
+          width: 180px;
+          height: 50px;
+          border: 1px solid #eaeaea;
+          background-color: #ffffff;
+          color: #4a4a4a;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          transition-duration: .3s; }
+          .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister button:hover {
+            color: gray; }
+        .checkInfo .checkInfo__Adress .checkInfo__form .shippingRegister a {
+          margin-left: 32px;
+          text-decoration: none;
+          color: #222222;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px; }
+    .checkInfo .checkInfo__Adress .shapersLines {
+      width: 100%;
+      border: 1px solid #e8e8e8; }
 
 /*# sourceMappingURL=style.css.map */
